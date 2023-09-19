@@ -41,7 +41,7 @@ function createDots(){
 	}
 }
 
-// fonction pour le déroulée des slides 
+// fonction pour le déroulé des slides 
 function createSlide(){
 	image.setAttribute ("src","./assets/images/slideshow/"+slides[active_slide].image);
 	tagLine.innerHTML=slides[active_slide].tagLine;
